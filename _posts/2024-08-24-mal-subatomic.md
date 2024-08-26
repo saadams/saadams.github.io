@@ -157,7 +157,7 @@ You could also install the asar tool from node and use that.
   ![dpapi install](../assets/imgs/subatomic/dpapi2.png)
   * Another issue this time in `sqlite3`. We will repeat the same steps again.
   ![debug atmp2](../assets/imgs/subatomic/debug2.png)
-  * After deleting the `sqlite3` folder reinstall.
+  * After deleting the `sqlite3` folder, reinstall.
   ![re-install sqlite3](../assets/imgs/subatomic/sqlite3.png)
 
 
@@ -165,7 +165,9 @@ You could also install the asar tool from node and use that.
 
 
   * This can be done using the controls at the top of vscode.
-  ![alt text](image.png)
+
+  ![buttons](../assets/imgs/subatomic/buttons.png)
+  
   * Step over,step in and step out can be used to move forward in the program.
      * Here is a great blog post if you want to brush up on the different controls:
      * <https://pawelgrzybek.com/continue-step-over-step-into-and-step-out-actions-in-visual-studio-code-debugger-explained/>
@@ -174,12 +176,7 @@ You could also install the asar tool from node and use that.
 
 ![mal js file](../assets/imgs/subatomic/mal_js.png)
  
-  * By debugging we are able to avoid the obfuscation and view the files as they are being called or generated dynamically.
-
-
-
-
-* While examining this js file we can find the answers to the previous and following questions.
+  * By debugging we are able to avoid the obfuscation and view the files as they are being called or generated dynamically. We can now answer the previous and following questions.
 
 
 * 5: The malware connects back to a C2 address during execution. What is the domain used for C2? and 7: The malware is looking for a particular path to connect back on. What is the full URL used for C2 of this malware?
@@ -188,10 +185,11 @@ You could also install the asar tool from node and use that.
 
 
 ![mal js file](../assets/imgs/subatomic/mal_js.png)
-  * Within that same image we can also see the checkVM function and the task list function, both of these are used for determining whether the malware is being debugged. It also contains the answer for question 9 and 10.
+  * Within that same image we can also see the checkVM function and the task list function, both of these are used for determining whether the malware is being run in a VM or under a debugger. It also contains the answer for question 9 and 10.
 
 
 * 9: The malware checks for a number of hostnames upon execution, and if any are found it will terminate. What hostname is it looking for that begins with arch?
+
 * 10: The malware looks for a number of processes when checking if it is running in a VM; however, the malware author has mistakenly made it check for the same process twice. What is the name of this process?  
 
 
@@ -238,5 +236,5 @@ You could also install the asar tool from node and use that.
 ## Conclusion:
 
 
-This was overall a really fun challenge that involved some real world malware. Shoutout to the creator of this challenge who has a blog and YouTube channel with lots of useful information regarding security and malware analysis <https://www.jaiminton.com/>.
+This was overall a really fun challenge that involved some real world malware. The creator of this challenge has a blog and YouTube channel with lots of useful information regarding security and malware analysis <https://www.jaiminton.com/>.
 

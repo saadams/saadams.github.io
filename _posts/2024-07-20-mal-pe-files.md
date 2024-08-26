@@ -23,9 +23,9 @@ The PE file format can be broken down like this.
 |----------------------|---------------------------------------------------------------------------------|
 | **DOS Header**       | Contains DOS-specific information and a signature ("MZ").                        |
 | **DOS Stub**         | Small program that runs if the file is executed in DOS, usually displaying a message like "This program cannot be run in DOS mode." |
-| **PE Header (NT Header)** | Marks the beginning of the PE format and contains important information like the signature ("PE\0\0").                  |
+| **PE Header (NT Header)** | Marks the beginning of the PE format and contains important information like the signature (`PE\0\0`).                  |
 | **File Header**      | Part of the PE Header; includes information about the file such as machine type, number of sections, and timestamp.  |
-| **Optional Header**  | Also part of the PE Header; contains vital information for loading the PE file, like entry point, base address, and section alignment. |
+| **Optional Header**  | Also a part of the PE Header; contains additional information for loading a PE file. |
 | **Section Table**    | Lists the sections of the PE file, such as `.text`, `.data`, `.rdata`, etc., with details on their sizes and locations. |
 | **Sections**         |  Sections of the PE file, which can include:                             |
 | - **.text**           | Contains executable code.                                                        |
