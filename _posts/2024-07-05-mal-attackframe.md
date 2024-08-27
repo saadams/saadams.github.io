@@ -6,9 +6,8 @@ tags: [malware analysis, windows, reverse engineering]      # TAG names should a
 ---
 
 
-# Malware Categories, Research Tactics and the MITRE ATT&CK Framework.
 
-Below common terms and categories of malware will be covered then research strategies and industry frameworks will be discussed. Various malware types will be listed and briefly described, the MITRE ATT&CK framework will then be described and research strategies will follow.
+Below categories of malware will be covered then research strategies and industry frameworks will be discussed. Various malware types will be listed and briefly described, the MITRE ATT&CK framework will then be described and research strategies will follow.
 
 
 
