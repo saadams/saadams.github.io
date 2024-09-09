@@ -2,7 +2,7 @@
 title: Cracking Safecracker on HTB
 date: 2024-09-07
 categories: [malware analysis]
-tags: [malware analysis, windows, reverse engineering]      # TAG names should always be lowercase
+tags: [malware analysis, windows, reverse engineering,Hack The Box]      # TAG names should always be lowercase
 ---
 
 
@@ -68,8 +68,6 @@ Step one is to extract the samples. I am using windows so I will use `7zip`. The
 
 
 
-
-![password](../assets/imgs/subatomic/challenge_key.png)
 
 
 
