@@ -396,10 +396,10 @@ This can be found when we run the binary in a tracer or debugger.
 
 
 
-## Dynamic unpacking the executable:
+## Dynamic unpacking the binary:
 
 
-The binary file we find with this challenge is a launcher for a packed executable and in order to find more info on how this binary works we will need to find a way to examine this packed binary.
+The binary file we find with this challenge has a packed section and in order to find more info on how this binary works we will need to find a way to examine this packed binary.
 
 
 When using `ltrace` or examining in `ida` we can see the function call which unpacks the binary and checks for a debugger is `execl()`
