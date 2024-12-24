@@ -1,7 +1,7 @@
 ---
 title: HTB Runner
 date: 2024-12-12
-categories: [web sec, writeups]
+categories: [web sec, writeup]
 tags: [pentesting, web, Hack The Box]      # TAG names should always be lowercase
 ---
 
