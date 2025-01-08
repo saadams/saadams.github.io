@@ -1,6 +1,6 @@
 ---
 title: Mobile Malware Analysis
-date: 2024-12-12
+date: 2024-12-15
 categories: [malware analysis, writeups]
 tags: [malware analysis, mobile]      # TAG names should always be lowercase
 ---

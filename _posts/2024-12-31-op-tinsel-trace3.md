@@ -60,7 +60,7 @@ These tasks are completed side by side so I will group them together.
    ![alt text](../assets/imgs/tinselimgs/image-2.png)
 
 
-   * Now we examine the files within.
+   * Now we examine the files within. 
 
 
    ![alt text](../assets/imgs/tinselimgs/image-3.png)
