@@ -304,8 +304,9 @@ Next we can find the line here:
    * A breakdown of the command from ChatGPT:
 
 
-   ```
-is using ProcDump, a Microsoft Sysinternals tool, to create a memory dump of the lsass.exe process, which is crucial for the Windows authentication system. Let's break it down to understand each part of the command.
+
+```
+This command is using ProcDump, a Microsoft Sysinternals tool, to create a memory dump of the lsass.exe process, which is crucial for the Windows authentication system. Let's break it down to understand each part of the command.
 Breaking it Down:
 
 
@@ -348,7 +349,8 @@ What is the Command Doing?
 
 
        The memory dump is being saved to a file called stolen_gift.dmp in the C:\Users\public\ folder. The name stolen_gift is a suspicious choice, as it implies the dump is being taken for malicious purposes (i.e., stealing data).
-   ```
+
+```
 
 
 # Conclusion:
