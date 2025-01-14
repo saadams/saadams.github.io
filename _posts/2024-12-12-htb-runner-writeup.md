@@ -250,6 +250,8 @@ returns:
 
 
 We can send a delete request and then re-post:
+
+
 `curl <site_url>/app/rest/users/id:1/tokens/RPC2 -X DELETE`
 
 
@@ -407,13 +409,10 @@ Results in a large dump of html lets checkout port 9000.
 Lets setup some port forwarding and then checkout the page...
 
 
-From my kali machine:
-
-
 `ssh -L 9000:127.0.0.1:9000 john@10.10.11.13 -i id_rsa`
 
 
-Then navigating to the local `127.0.0.1:9000`
+Then navigating to the local `127.0.0.1:9000` we can find the page.
 
 
 ![alt text](/assets/imgs/htb-runner/image-21.png)
