@@ -10,4 +10,4 @@ order: 4
 > I am a current college student who likes to explore various security topics and hardware stuff from time to time. This is a place for me to store and share writeups, projects or other things I find interesting.
 
 # Contact:
-* Email: protongoeshere@website.com
+* Email: rinzler1101@proton.me
