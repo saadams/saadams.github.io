@@ -104,7 +104,7 @@ We are greeted to various files upon unzipping. After examining the files it can
 ![kape](../assets/imgs/safecrack/kape.png)
 
 
-These can be examined with digital forensic tools such as FTK Imager, Redline or Autopsy. I used Autopsy(the downside to Autopsy is that it can be slow). You can also simply parse through the files yourself in the file explorer window.
+These can be examined with digital forensic tools such as FTK Imager or Autopsy. I used Autopsy(the downside to Autopsy is that it can be slow). You could also simply parse through the files yourself in the file explorer window.
 
 
 Windows file explorer:
