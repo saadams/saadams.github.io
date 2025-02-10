@@ -1,6 +1,6 @@
 ---
 title: Try Hack Me Advent of Cyber 2024 - Day 1
-date: 2024-12-15
+date: 2025-02-09
 categories: [opsec, writeups]
 tags: [opsec, purple]      # TAG names should always be lowercase
 ---
