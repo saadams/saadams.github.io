@@ -1,5 +1,5 @@
 ---
-title: Cracking Safecracker on HTB
+title: Cracking Safecracker Malware Analysis on HTB
 date: 2024-09-07
 categories: [malware analysis, writeups]
 tags: [malware analysis, windows, reverse engineering,Hack The Box]      # TAG names should always be lowercase
