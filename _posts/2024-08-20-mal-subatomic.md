@@ -2,7 +2,7 @@
 title: Subatomic Writeup Reversing Electron Based Malware
 date: 2024-08-20
 categories: [malware analysis,writeups]
-tags: [malware analysis, windows , Hack The Box]     # TAG names should always be lowercase
+tags: [malware analysis, windows , Hack The Box, reverse engineering]     # TAG names should always be lowercase
 ---
 
 
