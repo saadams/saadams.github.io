@@ -228,6 +228,8 @@ These methods often use Windows API to encrypt data. The steps to accomplish thi
    * `CryptReleaseContext(hCryptProv, 0);`
 
 
+> Other libs such as OpenSSL EVP can also be used especially with unix programs.
+
 
 
 ### Using CNG API:

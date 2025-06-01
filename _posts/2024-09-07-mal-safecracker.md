@@ -402,7 +402,7 @@ This can be found when we run the binary in a tracer or debugger.
 The binary file we find with this challenge has a packed section and in order to find more info on how this binary works we will need to find a way to examine this packed binary.
 
 
-When using `ltrace` or examining in `ida` we can see the function call which unpacks the binary and checks for a debugger is `execl()`
+When using `ltrace` or examining in `ida` we can see the function call which runs, unpacks the binary and checks for a debugger is `execl`
 
 
 ![execl](../assets/imgs/safecrack/execl.png)
