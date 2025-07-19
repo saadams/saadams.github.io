@@ -89,7 +89,9 @@ Here is an example based on a sample from the [PMA](https://nostarch.com/malware
 ![alt text](../assets/imgs/antidebug/auto_un1.png)
 * Unpack the file with CFF Explorer and the UPX utility.
 ![alt text](../assets/imgs/antidebug/unpack.png)
+
 * Save the file.
+
 ![alt text](../assets/imgs/antidebug/auto_un5.png)
 * Re-opening the sample in IDA all the imports and functions now appear and the sample is ready for analysis.
 ![alt text](../assets/imgs/antidebug/auto_un3.png)
@@ -104,6 +106,7 @@ Here is an example based on a sample from the [PMA](https://nostarch.com/malware
 
 
 ### Manual Unpacking:
+
 Manual unpacking is a more involved process and requires specific techniques to accomplish. Most of these techniques involve searching for the **OEP**(Original entry point) as this is transferred once the sample is unpacked. This can be accomplished with stack backtracking, dynamic memory monitoring or searching for the transfer to the OEP in a debugger and disassembler. Once the sample is unpacked it can be dumped to memory and then the import table can be fixed. Some tools can attempt to automatically do this such as `ollydump` or `scylla`.
 
 
@@ -483,11 +486,18 @@ Although malware can deploy various methods of evasion and reverse engineering d
 
 * Mastering Malware Analysis by Alexey Kleymenov and Amr Thabet
   * <https://www.packtpub.com/en-us/product/mastering-malware-analysis-9781803240244>
+
 * Practical Malware Analysis by Michael Sikorski and Andrew Honig
   * <https://nostarch.com/malware>
+
 * <https://learn.microsoft.com/en-us/windows/win32/seccng/cng-portal>
+
 * <https://learn.microsoft.com/en-us/windows/win32/seccrypto/cryptography-portal>
+
 * <https://www.aldeid.com/wiki/PEB-Process-Environment-Block/NtGlobalFlag>
+
 * <https://www.aldeid.com/wiki/PEB-Process-Environment-Block/ProcessHeap>
+
 * <https://anti-debug.checkpoint.com/>
 
+* <https://www.jaiminton.com/Tutorials/PracticalMalwareAnalysis/Chapter18/#>
