@@ -112,9 +112,9 @@ You can find all the raspberry pi datasheets here: https://datasheets.raspberryp
 
 I need to find out what pins to use for UART and Serial connections.
 
-![Pins](image.png)
+![Pins](pipinout.png)
 
-![GPIO Func](image-1.png)
+![GPIO Func](pidatasheet.png)
 
 
 We can also usual look up "*Board name* pinout or datasheet" in our favorite search engine.

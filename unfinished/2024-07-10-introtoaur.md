@@ -1,5 +1,5 @@
 ---
-title: Introduction to Aurduino and Breadboards
+title: Introduction to Arduino and Breadboards
 date: 2024-07-10 
 categories: [aurduino]
 tags: [hardware,embedded]     # TAG names should always be lowercase
