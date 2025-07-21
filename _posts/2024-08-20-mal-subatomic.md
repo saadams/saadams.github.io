@@ -1,5 +1,5 @@
 ---
-title: Subatomic Reversing Electron Based Malware on HTB
+title: Reversing Electron Based Malware on HTB (Subatomic)
 date: 2024-08-20
 categories: [malware analysis,writeups]
 tags: [malware analysis, windows , Hack The Box, reverse engineering]     # TAG names should always be lowercase
