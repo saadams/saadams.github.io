@@ -420,6 +420,15 @@ We can use `gdb` to break on this function call and step into the function, then
 ![ps_cat](../assets/imgs/safecrack/ps_and_cat.png)
 
 
+> Additionally we can see the binary when inspecting the fd dir directly.
+
+![alt text](../assets/imgs/safecrack/fddir.png)
+
+
+![alt text](../assets/imgs/safecrack/catfd.png)
+
+
+
 We can then open the new file in a tool like `cutter` or `ida`.
 
 
