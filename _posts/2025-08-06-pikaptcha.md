@@ -14,6 +14,10 @@ tags: [DFIR, Hack The Box] # TAG names should always be lowercase
 
 ## Box Info:
 
+**Link**
+
+<https://app.hackthebox.com/sherlocks/Pikaptcha>
+
 **About**
 
 Happy Grunwald contacted the sysadmin, Alonzo, because of issues he had downloading the latest version of Microsoft Office. He had received an email saying he needed to update and clicked the link to do so. He reported that he visited the website and solved a captcha, but no Office download page appeared. Alonzo, who himself was bombarded with phishing attacks last year and was now aware of attacker tactics, immediately notified the security team to isolate the machine as he suspected an attack. You are provided with network traffic and endpoint artifacts to answer questions about what happened.
