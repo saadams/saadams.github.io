@@ -1,6 +1,6 @@
 ---
 title: Cicada on HTB  
-date: 2025-08-06
+date: 2025-08-16
 categories: [windows,red-teaming, writeup]
 tags: [active directory, windows, hack the box, smb, cpts-prep] # TAG names should always be lowercase
 ---
