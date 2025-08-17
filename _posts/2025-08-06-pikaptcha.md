@@ -2,7 +2,7 @@
 title: Investigating Malicious CAPTCHAs with Pikaptcha on HTB
 date: 2025-08-06
 categories: [DFIR, writeup]
-tags: [DFIR, Hack The Box] # TAG names should always be lowercase
+tags: [dfir,threat analysis, hack the box] # TAG names should always be lowercase
 ---
 
 # Investigating Malicious CAPTCHAs with Pikaptcha on HTB
