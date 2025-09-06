@@ -1,5 +1,5 @@
 ---
-title: Analyzing SambaSPY RAT on and Beyond LetsDefend
+title: Analyzing SambaSPY RAT (LetsDefend)
 date: 2025-09-05
 categories: [malware analysis, research]
 tags: [malware analysis, itw]      # TAG names should always be lowercase
@@ -7,7 +7,7 @@ tags: [malware analysis, itw]      # TAG names should always be lowercase
 
 
 
-# Analyzing SambaSPY RAT on and Beyond LetsDefend
+# Analyzing SambaSPY RAT 
 
 
 
